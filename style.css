@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(41, 41, 41);
+}
+
+.filters-section {
+    margin: 15px 0px;
+}
+
+.filters-section button {
+    padding: 7px 18px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0.6em;
+    margin: 4px 2px;
+}
+
+.filters-section button:hover {
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    margin: 25px 10px;
+}
+
+.navbar {
+    justify-self: center;
+}
+
+.posts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 580px;
+    min-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.post {
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    background-color: rgb(73, 73, 73);
+    margin: 8px 5px;
+}
+
+.post:hover {
+    border: 1px solid white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pfp-img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.header-info {
+    display: flex;
+}
+
+.names {
+    padding: 5px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(61, 24, 24);
+    font-size: small;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 0.5em;
+    padding: 0.25em;
+    height: 20px;
+}
+
+.social-media p {
+    color: rgb(61, 24, 24);
+    margin: 0px 3px;
+
+}
+
+.social-media img{
+    width: 15px;
+    height: 15px;
+}
+
+.tag {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 3em;
+    padding: 0.25em;
+}
+
+.post-name {
+    color: white;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.at-name {
+    color: gray;
+    font-size: small;
+    margin: 5px 0px;
+}
+
+.post-text {
+    color: white;
+    margin: 10px 0px;
+}
+
+.footer-section {
+    color: gray;
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactions {
+    display: flex;
+}
+
+.reactions p {
+    margin: 3px 5px;
+}
+
+.time {
+    margin: 3px;
+}
+
+#no-posts {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}

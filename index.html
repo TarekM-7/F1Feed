@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Feed</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <h1>F1 Feed</h1>
+
+    <nav class="navbar">
+      <div class="filters-section">
+        <button data-team="all">All Teams</button>
+        <button data-team="redbull">Red Bull</button>
+        <button data-team="ferrari">Ferrari</button>
+        <button data-team="mercedes">Mercedes</button>
+        <button data-team="mclaren">McLaren</button>
+        <button data-team="cadillac">Cadillac</button>
+        <button data-team="haas">Haas</button>
+        <button data-team="audi">Audi</button>
+        <button data-team="williams">Williams</button>
+        <button data-team="alpine">Alpine</button>
+        <button data-team="astonmartin">Aston Martin</button>
+        <button data-team="racingbulls">Racing Bulls</button>
+        <button data-team="f1">Official F1</button>
+      </div>
+    </nav>
+
+    <main>
+      <div class="posts-section">
+        <div class="post">
+          <div class="post-header">
+            <div class="header-info">
+              <img
+                class="pfp-img"
+                src="https://static01.nyt.com/athletic/uploads/wp/2024/11/23101154/GettyImages-2179839817-scaled.jpg?width=1200&height=1200&fit=cover"
+                alt="pfp"
+              />
+              <div class="names">
+                <p class="post-name">Ferrari <span class="tag">New</span></p>
+                <p class="at-name">@ScuderiaFerrari</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="insta"
+              />
+              <p>Instagram</p>
+            </div>
+          </div>
+
+          <p class="post-text">
+            P1 in qualifying. The tifosi roar is everything. 🔴 #ItalianGP
+            #Forza Ferrari
+          </p>
+
+          <div class="footer-section">
+            <div class="reactions">
+              <p><i style="font-size: 16px" class="fa">&#xf08a;</i> 30.2k</p>
+              <p><i style="font-size: 16px" class="fa">&#xf0e5;</i> 2.2k</p>
+              <p><i style="font-size: 16px" class="fa">&#xf079;</i> 6.1k</p>
+            </div>
+            <p class="time">2 days ago</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-header">
+            <div class="header-info">
+              <img
+                class="pfp-img"
+                src="https://cdn.vectorstock.com/i/500p/53/84/formula-1-logo-ferrari-vector-51875384.jpg"
+                alt="pfp"
+              />
+              <div class="names">
+                <p class="post-name">Formula 1 <span class="tag">New</span></p>
+                <p class="at-name">@F1</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <img
+                src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/all-icons/twitter-x-1fhy50xzcvkl246hf5ua4.png/twitter-x-jyw81k7vr85ry57c7ym2d.png?_a=DATAiZAAZAA0"
+                alt="insta"
+              />
+              <p>X</p>
+            </div>
+          </div>
+
+          <p class="post-text">
+            BREAKING: The FIA has confirmed a new sprint race format for the
+            2026 season. Full details on f1.com.
+          </p>
+
+          <div class="footer-section">
+            <div class="reactions">
+              <p><i style="font-size: 16px" class="fa">&#xf08a;</i> 112k</p>
+              <p><i style="font-size: 16px" class="fa">&#xf0e5;</i> 14.2k</p>
+              <p><i style="font-size: 16px" class="fa">&#xf079;</i> 38k</p>
+            </div>
+            <p class="time">31 min ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
