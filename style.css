@@ -11,6 +11,7 @@ body {
     margin: 15px 0px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .filters-section button {
@@ -153,4 +154,15 @@ h1 {
     font-size: large;
     font-weight: bold;
     text-align: center;
+}
+
+@media (width <= 1430px){
+    .filters-section {
+        flex-wrap: wrap;
+    }
+
+    .filters-section button {
+        width: 32%;
+    }
+
 }
