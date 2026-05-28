@@ -54,13 +54,18 @@ renderPosts(data)
 
 const filtersSection = document.querySelector('.filters-section')
 
+const filtersButtonList = document.querySelectorAll('.filters-section button')
+
 filtersSection.addEventListener('click',(e) => {
   const filterTeam = e.target.dataset.team;
 
   if(!filterTeam) return;
 
-  const filteredData = filterTeam === 'all' 
-  ? data : data.filter(post => post.nameTag === filterTeam);
+  filtersButtonList.forEach(btn => btn.classList.remove('btn-active'));
+  e.target.classList.add('btn-active');
+
+  const filteredData = filterTeam === 'all' ?
+  data : data.filter(post => post.nameTag === filterTeam);
 
   if(filteredData.length === 0){
     postsSection.innerHTML = 
@@ -72,4 +77,4 @@ filtersSection.addEventListener('click',(e) => {
     renderPosts(filteredData)
   }
   
-})
+});

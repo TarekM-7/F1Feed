@@ -41,8 +41,17 @@ h1 img {
 }
 
 .filters-section button:hover {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(30, 30, 30);
     cursor: pointer;
+}
+
+.filters-section button:active {
+    background-color: rgb(18, 18, 18);
+}
+
+.filters-section button.btn-active {
+    border: 1.8px solid white;
+    /* background-color: rgb(18, 18, 18); */
 }
 
 h1 {
