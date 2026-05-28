@@ -22,14 +22,12 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint fuga et vel quasi
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint fuga et vel quasi voluptates, sit nisi labore iste optio at harum. Assumenda nostrum cumque animi sit tempora saepe blanditiis expedita.
 
-## Running the Project
+## 🏃 Running the Project
 
-If you want to run this project localy, follow these steps:
-
-No installation or dependencies required.
+No installation or dependencies required. If you want to run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/F1Feed.git
+   git clone https://github.com/TarekM-7/F1Feed.git
 
 2. Open the project folder:
    cd F1Feed
