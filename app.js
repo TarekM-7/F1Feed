@@ -86,7 +86,6 @@ header.addEventListener('click', () => {
   renderPosts(data);
 })
 
-// TODO: light/dark mode - start with :root and .darkmode class with colors
 const btnMode = document.querySelector('.btn-mode')
 let lightMode = localStorage.getItem('lightmode')
 
