@@ -85,3 +85,26 @@ header.addEventListener('click', () => {
   filtersButtonList.forEach(btn => btn.classList.remove('btn-active'));
   renderPosts(data);
 })
+
+const btnMode = document.querySelector('.btn-mode')
+let lightMode = localStorage.getItem('lightmode')
+
+const enableDarkMode = () => {
+  document.body.classList.add('light-mode');
+  localStorage.setItem('lightmode', 'active')
+}
+const disableDarkmode = () => {
+  document.body.classList.remove('light-mode');
+  localStorage.setItem('lightmode', null)
+}
+
+if(lightMode === 'active') enableDarkMode();
+
+btnMode.addEventListener('click', () => {
+  lightMode = localStorage.getItem('lightmode')
+  lightMode !== 'active' ? enableDarkMode() : disableDarkmode()
+})
+
+// TODO: finish hamburger menu for mobile
+
+// TODO: add search bar to filter posts by keyword
