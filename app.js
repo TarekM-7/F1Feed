@@ -88,11 +88,22 @@ header.addEventListener('click', () => {
 
 // TODO: light/dark mode - start with :root and .darkmode class with colors
 const btnMode = document.querySelector('.btn-mode')
-const body = document.querySelector('body')
+let lightMode = localStorage.getItem('lightmode')
+
+const enableDarkMode = () => {
+  document.body.classList.add('light-mode');
+  localStorage.setItem('lightmode', 'active')
+}
+const disableDarkmode = () => {
+  document.body.classList.remove('light-mode');
+  localStorage.setItem('lightmode', null)
+}
+
+if(lightMode === 'active') enableDarkMode();
 
 btnMode.addEventListener('click', () => {
-  body.classList.add('light-mode')
-  console.log(body)
+  lightMode = localStorage.getItem('lightmode')
+  lightMode !== 'active' ? enableDarkMode() : disableDarkmode()
 })
 
 // TODO: finish hamburger menu for mobile
