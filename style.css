@@ -179,6 +179,10 @@ h1 {
     text-align: center;
 }
 
+.light-mode {
+    background-color: white;
+}
+
 @media (width <= 1430px){
     .filters-section {
         flex-wrap: wrap;

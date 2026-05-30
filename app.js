@@ -85,3 +85,16 @@ header.addEventListener('click', () => {
   filtersButtonList.forEach(btn => btn.classList.remove('btn-active'));
   renderPosts(data);
 })
+
+// TODO: light/dark mode - start with :root and .darkmode class with colors
+const btnMode = document.querySelector('.btn-mode')
+const body = document.querySelector('body')
+
+btnMode.addEventListener('click', () => {
+  body.classList.add('light-mode')
+  console.log(body)
+})
+
+// TODO: finish hamburger menu for mobile
+
+// TODO: add search bar to filter posts by keyword
