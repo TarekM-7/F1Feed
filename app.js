@@ -78,3 +78,10 @@ filtersSection.addEventListener('click',(e) => {
   }
   
 });
+
+const header = document.querySelector('h1')
+
+header.addEventListener('click', () => {
+  filtersButtonList.forEach(btn => btn.classList.remove('btn-active'));
+  renderPosts(data);
+})

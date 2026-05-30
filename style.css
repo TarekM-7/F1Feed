@@ -57,6 +57,7 @@ h1 img {
 h1 {
     color: white;
     margin: 25px 10px;
+    cursor: pointer;
 }
 
 .posts-section {
