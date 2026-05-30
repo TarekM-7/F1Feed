@@ -20,6 +20,7 @@
     height: 50px;
     width: 50px;
     padding: 0;
+    border: 2px solid gray;
     border-radius: 50%;
     background-color: var(--post-bg-color);
     display: flex;
@@ -28,6 +29,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 
 .btn-mode svg{
