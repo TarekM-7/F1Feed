@@ -16,11 +16,42 @@
     --btn-active: rgb(201, 201, 201);
 }
 
+.btn-mode {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--post-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.btn-mode svg{
+    fill: var(--primary-text-color);
+}
+
+.btn-mode svg:last-child{
+    display: none;
+}
+
+.light-mode .btn-mode svg:first-child{
+    display: none;
+}
+
+.light-mode .btn-mode svg:last-child{
+    display: block;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-color);
 }
 
+/* BUGFIX: H1 is 100vh. We want it smaller */
 h1 {
     display: flex;
     align-items: center;
