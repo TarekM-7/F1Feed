@@ -7,13 +7,15 @@ ordered from latest to oldest.
 ## Technologies
 
 - `HTML`
-- `CSS`:
-  +Flexbox
-  +CSS Variables
-  +Media Queries
-- `Vanilla JavaScript`:
-  +ES Modules
-  +DOM Manipulation
+- `CSS`
+  - Flexbox
+  - CSS Variables
+  - Media Queries
+- `Vanilla JavaScript`
+  - ES Modules
+  - DOM Manipulation
+  - Array Methods (map, filter)
+  - localStorage
 
 ## Features
 
