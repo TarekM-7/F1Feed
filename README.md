@@ -8,12 +8,12 @@ ordered from latest to oldest.
 
 - `HTML`
 - `CSS`:
-   +Flexbox
-   +CSS Variables
-   +Media Queries
+  +Flexbox
+  +CSS Variables
+  +Media Queries
 - `Vanilla JavaScript`:
-   +ES Modules
-   +DOM Manipulation
+  +ES Modules
+  +DOM Manipulation
 
 ## Features
 
@@ -116,6 +116,8 @@ That's it!
 ## Preview
 
 ### Light Mode
+<img width="1900" height="938" alt="image" src="https://github.com/user-attachments/assets/c6bff4cf-7137-4749-9394-cfa87e52c425" />
 
 ### Dark Mode
+<img width="1901" height="926" alt="image" src="https://github.com/user-attachments/assets/be790c0d-a2df-4ac0-a71c-3f57916d3477" />
 
